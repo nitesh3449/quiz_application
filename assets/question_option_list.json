@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "Which programming language is used for Flutter development?",
+      "score": 0,
+      "options": [
+        {
+          "optionId": 1,
+          "option": "Java",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 2,
+          "option": "Swift",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 3,
+          "option": "Python",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 4,
+          "option": "Dart",
+          "isCorrect": true,
+          "optionStatus": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is Flutter?",
+      "score": 0,
+      "options": [
+        {
+          "optionId": 1,
+          "option": "Flutter is an open-source backend development framework",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 2,
+          "option": "Flutter is an open-source UI toolkit",
+          "isCorrect": true,
+          "optionStatus": false
+        },
+        {
+          "optionId": 3,
+          "option": "Flutter is an open-source programming language for cross-platform applications",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 4,
+          "option": "Flutters is a DBMS toolkit",
+          "isCorrect": false,
+          "optionStatus": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Who developed the Flutter Framework and continues to maintain it today?",
+      "score": 0,
+      "options": [
+        {
+          "optionId": 1,
+          "option": "Facebook",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 2,
+          "option": "Google",
+          "isCorrect": true,
+          "optionStatus": false
+        },
+        {
+          "optionId": 3,
+          "option": "Microsoft",
+          "isCorrect": false,
+          "optionStatus": false
+        },
+        {
+          "optionId": 4,
+          "option": "Oracle",
+          "isCorrect": false,
+          "optionStatus": false
+        }
+      ]
+    }
+  ]
+}
