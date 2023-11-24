@@ -25,6 +25,12 @@ class _QuizStartScreenState extends State<QuizStartScreen> {
     getPreferencesData();
   }
 
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
+
   void getPreferencesData() async {
      bestScore = await PreferenceHelper.getDoublePreferencesData(PreferenceHelper.bestScore) ?? -1;
      setState(() {});
@@ -136,10 +142,8 @@ class _QuizStartScreenState extends State<QuizStartScreen> {
                                 builder: (context) => const QuestionScreen()
                             )
                         ).then((value) async {
-                          log("Hello");
                           bestScore = await PreferenceHelper.getDoublePreferencesData(PreferenceHelper.bestScore) ?? -1;
 
-                          log("Best Score====$bestScore");
                           setState(() {});
                         });
                       } else {
@@ -151,8 +155,6 @@ class _QuizStartScreenState extends State<QuizStartScreen> {
                         ).then((value) async {
                           bestScore = await PreferenceHelper.getDoublePreferencesData(PreferenceHelper.bestScore) ?? -1;
 
-                          log("Best Score==123==$bestScore");
-                          log("Best Score==1111==$bestScore");
                           setState(() {});
                         });
                       }
